@@ -17,7 +17,11 @@
 
 
 .header div input{
+    margin: 0 2% 0 2%;
     display: inline-block;
+    border:0;
+    outline: 0;
+    background-color: rgba(219, 215, 215, 0);
 }
 
 .header img{
@@ -50,4 +54,16 @@
 }
 
 
+#searchBox {
+    display: flex;
+    align-items: center;
+    background-color:rgb(219, 215, 215) ;
+    border-radius:  30px 30px 30px 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
+#searchBoxImg {
+    width: 25px;
+    height: 25px;
+    /* margin: 5%; */
+}
