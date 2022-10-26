@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* flex-direction: column; */
 }
 
 .header div{
@@ -33,7 +32,22 @@
     width: 40px;
     height: 40px;
 }
+/* nav bar  */
+/* need to center  */
+.header nav{
+    display: flex;
+    justify-self:center;
+}
+/* nav bar text */
+.header nav a{
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
+}
 
 
 
