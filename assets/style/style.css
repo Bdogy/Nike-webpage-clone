@@ -2,6 +2,43 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+main {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+/* controls side */
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+aside div h3{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+aside div h4 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+aside div h5 {
+    font-size: 16px;
+    margin-bottom: 20%;
+}
+
+aside article{
+    margin-top: 10px;
+    display: flex;
+    width: 69%;
+    justify-content: space-between;
+}
+
+
 
 .header{
     display: flex;
@@ -60,9 +97,10 @@
 
 .banner {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: rgb(240, 238, 238) ;;
+    background-color: rgb(240, 238, 238) ;
 }
 .banner div {
     display: flex;
@@ -83,6 +121,17 @@
 .banner p {
     text-align: center;
     margin: 10px;
+}
+
+.asideSizeButtonsBox{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.asideSizeButtonsBox button {
+    width: 150px;
+    height: 50px;
 }
 
 
@@ -106,3 +155,6 @@
     font-weight: 400;
     font-size: 30px;
 }
+
+
+
