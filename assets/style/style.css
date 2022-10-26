@@ -1,0 +1,39 @@
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.header div{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+}
+
+.header nav{
+    display: flex;
+}
+
+
+.header div input{
+    display: inline-block;
+}
+
+.header img{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.header div img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
