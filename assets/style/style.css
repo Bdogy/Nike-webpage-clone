@@ -1,3 +1,6 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
 
 .header{
@@ -54,10 +57,39 @@
 }
 
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 238, 238) ;;
+}
+.banner div {
+    display: flex;
+    margin: 1% 5% 1% 5%;
+    width: 40%;
+    justify-content: center;
+    
+
+}
+
+.banner h2 {
+    margin: 10px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner p {
+    text-align: center;
+    margin: 10px;
+}
+
+
+
 #searchBox {
     display: flex;
     align-items: center;
-    background-color:rgb(219, 215, 215) ;
+    background-color:rgb(240, 238, 238) ;
     border-radius:  30px 30px 30px 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -66,4 +98,10 @@
     width: 25px;
     height: 25px;
     /* margin: 5%; */
+}
+
+#bannerNextIcon {
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 30px;
 }
