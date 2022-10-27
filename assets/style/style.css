@@ -5,15 +5,15 @@
 main {
     display: flex;
     margin-top: 5%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* controls side */
 
 aside{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+    display: block;
+
+    width: 80%;
 }
 
 aside div h3{
@@ -124,7 +124,7 @@ aside article{
 }
 
 .asideSizeButtonsBox{
-    margin-top: 1%;
+    margin-top: .5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -136,12 +136,14 @@ aside article{
 
 .imgSection {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
+    margin-left: 10%;
 }
 
 .imgSection img {
-    width: 200px;
-    height: 200px;
+    margin: .5% .5% .5% .5%;
+    width:40%;
+    height: 48%;
 }
 
 
