@@ -134,6 +134,16 @@ aside article{
     height: 50px;
 }
 
+.imgSection {
+    display: flex;
+    flex: wrap;
+}
+
+.imgSection img {
+    width: 200px;
+    height: 200px;
+}
+
 
 
 #searchBox {
